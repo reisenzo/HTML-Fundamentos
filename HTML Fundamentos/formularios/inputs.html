@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Formulario</h1>
+    <form action="">
+      <label for="nome">Nome:</label><br />
+      <input type="text" name="nome" id="nome" /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" /><br /><br />
+
+      <label for="number">WhatsApp</label><br />
+      <input type="number" id="number" /><br /><br />
+
+      <label>Área de Atuação:</label><br />
+      <input type="radio" id="desenvolvimento" name="area" />
+      <label for="desenvolvimento">Desenvolvimento</label>
+
+      <input type="radio" id="qa" name="area" />
+      <label for="qa">Quality Assurance</label>
+
+      <input type="radio" id="ad" name="area" />
+      <label for="ad">Analise de Dados</label>
+
+      <input type="radio" id="infra" name="area" />
+      <label for="infra">Infraestrutura</label>
+      <br /><br />
+
+      <label for="sobre">Sobre mim:</label><br />
+      <textarea
+        name="sobre"
+        id="sobre"
+        cols="30"
+        rows="2"
+        placeholder="Fale um pouco sobre você..."
+      ></textarea
+      ><br /><br />
+      <input type="checkbox" name="noticia" id="noticia" />
+      <label for="noticia">Desejo receber novidades por email.</label
+      ><br /><br />
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
