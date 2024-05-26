@@ -1,2 +1,5 @@
 # HTML-Fundamentos
- Fundamentos e estudos em HTML
+ Esse repositório serve como portifolio para alguns fundamentos de HTML.
+
+Att.
+Enzo Reis.
